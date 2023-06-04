@@ -1,0 +1,65 @@
+#containerNavbar{
+    padding: unset !important;
+    padding: 0 10px !important;
+}
+
+.navbar-brand{
+    width:120px;
+}
+
+.navbar-toggler-icon {
+    width: 1.3rem !important;
+    height: 1.3rem !important;
+}
+
+.navbar-toggler{
+    border: 1px solid rgba(0, 0, 0, 0) !important;
+}
+
+.navbar-toggler:focus{
+    box-shadow: none !important;
+}
+
+.rightNavLink{
+
+    width: 100%;
+    display: flex;
+    justify-content: right;
+}
+
+.rightNavLink a{
+    margin-left: 10px;
+}
+
+.rightNavLink a:hover{
+    color: var(--blue) !important;
+}
+.rightNavLink .Masuk{
+    margin-left: 20px;
+}
+.rightNavLink .Daftar{
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    color: white;
+    background-color: #181818;
+}
+.rightNavLink .Daftar:hover{
+    color: white;
+}
+
+@media screen and (max-width:992px) {
+    #basic-navbar-nav{
+        text-align: center;
+    }
+    .rightNavLink .Daftar{
+        width: unset;
+        display: block;
+        color: var(--bs-navbar-color);
+        background-color: unset;
+    }
+    .rightNavLink a{
+        margin-left:unset !important;
+    }
+}

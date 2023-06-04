@@ -1,0 +1,15 @@
+input{
+    width: 50%;
+    height: 50px;
+    padding: 0 10px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid var(--blue);
+}
+
+textarea{
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid var(--blue);
+    padding: 10px 10px;
+}

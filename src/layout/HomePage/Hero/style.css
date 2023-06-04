@@ -1,0 +1,25 @@
+#containerHero{
+    padding-top: 150px !important;
+    padding-bottom: 20px;
+}
+.titleHero h1{
+    font-weight: 800;
+}
+.titleHero span{
+    color: var(--blue);
+}
+
+@media screen and (max-width:992px) {
+    .titleHero{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+    #containerHero{
+        padding-top: 120px !important;
+    }
+    .playAndApp{
+        display: none;
+    }
+
+}

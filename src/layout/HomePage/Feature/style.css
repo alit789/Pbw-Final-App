@@ -1,0 +1,21 @@
+.card{
+    border: none !important;
+}
+.card-img{
+    width: 50px !important;
+}
+
+.paddCard{
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    padding: 20px;
+}
+@media screen and (max-width : 992px) {
+    .paddCard{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        padding: 20px;
+    }
+}

@@ -1,0 +1,5 @@
+.cardFitur:hover{
+    transform:translateY(-10px);
+    transition: ease-in-out 0.5s;
+    cursor: pointer;
+}

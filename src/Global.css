@@ -1,0 +1,10 @@
+:root{
+    --white:#fff;
+    --black:#151515;
+    --blackDesc:#181818;
+    --blue : #2CA6E0;
+    --blueHover : #1B2143;
+}
+.container{
+    padding: 20px 0px;
+}

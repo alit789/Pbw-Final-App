@@ -1,0 +1,5 @@
+.cardCars:hover{
+    transition: ease-in-out 0.3s;
+    cursor: pointer;
+    background-color: rgb(196, 255, 255);
+}

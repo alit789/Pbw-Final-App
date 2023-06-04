@@ -1,7 +1,9 @@
-import Router from "./router/Router"
+import Router from "./router/Routerku"
+
 
 function App() {
   return <Router/>
+  
 }
 
 export default App
