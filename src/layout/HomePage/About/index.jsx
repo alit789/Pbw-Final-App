@@ -9,19 +9,14 @@ const index = () => {
       <Row>
         <Col xl={6} md={12} className="d-flex align-items-center">
           <div className="aboutText">
-            <h1>Apa itu <span style={{color:'var(--blue)'}}>Motion?</span></h1>
-            <p style={{textAlign:'justify'}}>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam
-              cupiditate illo quas recusandae saepe voluptatum doloribus
-              delectus perspiciatis non! Voluptatem sint quas non similique
-              iusto vitae suscipit tenetur placeat iure. Lorem ipsum dolor, sit
-              amet consectetur adipisicing elit. Facilis, nulla sed, aperiam
-              corrupti eveniet dolorum deleniti earum labore ea laudantium minus
-              blanditiis. Porro placeat autem aut quia ab repudiandae minus.lor
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam
-              inventore, reiciendis blanditiis hic nobis adipisci incidunt
-              assumenda nesciunt delectus aliquid enim quas ex ratione velit
-              voluptas non perferendis eveniet consequatur.
+            <h1>
+              Apa itu <span style={{ color: "var(--blue)" }}>Motion?</span>
+            </h1>
+            <p style={{ textAlign: "justify" }}>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Reprehenderit, esse quaerat velit quam quae quibusdam modi ut unde
+              beatae facere repudiandae suscipit, ea ipsam atque minus quis
+              voluptate nam ab.
             </p>
           </div>
         </Col>

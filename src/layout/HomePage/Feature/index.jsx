@@ -26,7 +26,7 @@ const dataCard = [
 const index = () => {
   return (
     <section id="Hero">
-      <Container className="pt-5 pb-2">
+      <Container className="py-5">
         <Row>
           {dataCard.map((infoCard) => {
             return (
