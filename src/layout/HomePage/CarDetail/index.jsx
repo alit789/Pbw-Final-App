@@ -28,22 +28,22 @@ const index = () => {
             <div className="cardCar">
               <div className="card1">
                 <CarCard
-                  title="1.Mendaftar"
-                  desc="Pertama Kali yang Harus Kalian Lakukan Adalah Mendaftar ke Website ini"
+                  title="1. Daftar"
+                  desc="Pertama Kali yang Harus Kalian Lakukan Sebelum Melakukan Pemesanan Adalah Mendaftar ke Website ini"
                 />
                 <CarCard
-                  title="2.Mendaftar"
-                  desc="Pertama Kali yang Harus Kalian Lakukan Adalah Mendaftar ke Website ini"
+                  title="2. Masuk"
+                  desc="Setelah Melakukan Pendaftaran yang Harus Kalian Lakukan Selanjutnya Adalah Masuk ke Dalam Website ini"
                 />
               </div>
               <div className="card2">
                 <CarCard
-                  title="3.Mendaftar"
-                  desc="Pertama Kali yang Harus Kalian Lakukan Adalah Mendaftar ke Website ini"
+                  title="3. Pesan"
+                  desc="Kemudian Kalian Bisa Pesan Mobil Impian Anda di Website Ini Dengan Mudah"
                 />
                 <CarCard
-                  title="4.Mendaftar"
-                  desc="Pertama Kali yang Harus Kalian Lakukan Adalah Mendaftar ke Website ini"
+                  title="4. Bayar"
+                  desc="Setelah Melakukan Proses Pemesanan , Kalian Tinggal Bayar dengan Metode Pembayaran Yang Tersedia"
                 />
               </div>
             </div>

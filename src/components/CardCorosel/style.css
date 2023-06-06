@@ -1,0 +1,26 @@
+.carousel-indicators button{
+    display: none !important;
+}
+
+.cardCorosel{
+    width: 50%;
+    height: 300px;
+}
+.card-body img{
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+}
+
+.card-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+@media screen and (max-width:576px) {
+    .cardCorosel{
+        width: 100%;
+    }
+}

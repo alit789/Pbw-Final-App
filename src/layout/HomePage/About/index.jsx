@@ -13,10 +13,10 @@ const index = () => {
               Apa itu <span style={{ color: "var(--blue)" }}>Motion?</span>
             </h1>
             <p style={{ textAlign: "justify" }}>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Reprehenderit, esse quaerat velit quam quae quibusdam modi ut unde
-              beatae facere repudiandae suscipit, ea ipsam atque minus quis
-              voluptate nam ab.
+              Motion adalah sebuah website untuk menyewa kendaraan dengan cara
+              yang mudah dan efektif , motion menyewakan berbagai jenis
+              kendaraan yang sedang populer, motion telah berdiri dari sejak
+              2022 dan kini sudah 1,5 tahun berjalan.
             </p>
           </div>
         </Col>

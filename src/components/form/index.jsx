@@ -11,11 +11,11 @@ const index = () => {
             <h5 className="text-center">Kamu Masih Ada Pertanyaan?</h5>
             <p className="text-center">Bisa Banget kamu Kirimkan Pertanyaan Kamu ke kami yaaa</p>
             <div className="emailPass d-flex gap-3">
-              <input type="text" placeholder="Masukan Nama Anda" />
-              <input type="email" placeholder="Masukan Email Anda" />
+              <input type="text" name="nama" placeholder="Masukan Nama Anda" />
+              <input type="email" name="email" placeholder="Masukan Email Anda" />
             </div>
             <textarea placeholder="Masukan Saranmu Disini yaa" className="mt-3 mb-2 w-100" name="" id="" rows="10"></textarea>
-            <button className="btn btn-primary">Kirim Pertanyaan</button>
+            <button type="submit" className="btn btn-primary">Kirim Pertanyaan</button>
           </div>
         </Col>
       </Row>

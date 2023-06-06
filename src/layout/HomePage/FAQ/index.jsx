@@ -2,7 +2,6 @@ import React from "react";
 import "./style.css";
 import { Col, Container, Row } from "react-bootstrap";
 import FaqCard from "../../../components/accordion/index";
-import Form from "../../../components/form/index"
 
 const index = () => {
   return (
@@ -13,8 +12,8 @@ const index = () => {
             <h3 className="text-center mb-4" style={{ color: "var(--blue)" }}>
               Pertanyaan Yang Sering Ditanyakan
             </h3>
-            <div className="rowFaq  d-flex gap-3">
-              <div className="row1 w-50">
+            <div className="rowFaq">
+              <div className="row1">
                 <FaqCard
                   header="Apakah Meminjam Mobil di Motion Aman?"
                   body="Lorem ipsum dolor sit amet consectetur adipisicing elit. In ipsum a autem hic nam non, consequatur doloremque! Inventore beatae minus quas. Rerum iure minima sint repellat cumque voluptates atque eos?"
@@ -25,24 +24,31 @@ const index = () => {
                   body="Lorem ipsum dolor sit amet consectetur adipisicing elit. In ipsum a autem hic nam non, consequatur doloremque! Inventore beatae minus quas. Rerum iure minima sint repellat cumque voluptates atque eos?"
                   key="2"
                 />
+                <FaqCard
+                  header="Apa Saja Keunggulan yang dimiliki oleh Motion"
+                  body="Lorem ipsum dolor sit amet consectetur adipisicing elit. In ipsum a autem hic nam non, consequatur doloremque! Inventore beatae minus quas. Rerum iure minima sint repellat cumque voluptates atque eos?"
+                  key="3"
+                />
               </div>
-              <div className="row2 w-50">
+              <div className="row2">
                 <FaqCard
                   header="Mobil Jenis Apa Saja yang Tersedia Di Motion?"
                   body="Lorem ipsum dolor sit amet consectetur adipisicing elit. In ipsum a autem hic nam non, consequatur doloremque! Inventore beatae minus quas. Rerum iure minima sint repellat cumque voluptates atque eos?"
-                  key="3"
+                  key="4"
                 />
                 <FaqCard
                   header="Metode Pembayaran Apa saja yang tersedia di Motion?"
                   body="Lorem ipsum dolor sit amet consectetur adipisicing elit. In ipsum a autem hic nam non, consequatur doloremque! Inventore beatae minus quas. Rerum iure minima sint repellat cumque voluptates atque eos?"
-                  key="3"
+                  key="5"
+                />
+                <FaqCard
+                  header="Apakah Motion tersedia di PlayStore dan AppStore"
+                  body="Lorem ipsum dolor sit amet consectetur adipisicing elit. In ipsum a autem hic nam non, consequatur doloremque! Inventore beatae minus quas. Rerum iure minima sint repellat cumque voluptates atque eos?"
+                  key="6"
                 />
               </div>
             </div>
           </div>
-        </Col>
-        <Col> 
-          <Form/>
         </Col>
       </Row>
     </Container>

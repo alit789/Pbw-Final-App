@@ -2,11 +2,8 @@
     color: var(--blue);
 }
 .descCarDetail h1{
+    color: var(--black);
     font-weight: 700;
-}
-.descCarDetail h4{
-    font-weight: 500;
-    margin-bottom: 20px;
 }
 
 .card1, .card2{

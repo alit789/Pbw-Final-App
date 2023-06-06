@@ -1,10 +1,14 @@
 :root{
     --white:#fff;
     --black:#151515;
-    --blackDesc:#181818;
+    --blackDesc:#202020;
     --blue : #2CA6E0;
     --blueHover : #1B2143;
 }
 .container{
     padding: 50px 0px;
+}
+p{
+    color: var(--blackDesc);
+    font-weight: 400 !important;
 }

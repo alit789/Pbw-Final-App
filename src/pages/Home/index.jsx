@@ -7,6 +7,8 @@ import FiturSection from "../../layout/HomePage/Feature/index"
 import CarSection from "../../layout/HomePage/CarDetail/index"
 import FaqSection from "../../layout/HomePage/FAQ/index"
 import AboutSection from "../../layout/HomePage/About/index"
+import TestimoniSection from "../../layout/HomePage/Testimoni/index"
+import SendEmailSection from "../../layout/HomePage/SendEmail/index"
 
 const index = () => {
   return (
@@ -17,6 +19,8 @@ const index = () => {
       <CarSection/>
       <AboutSection/>
       <FaqSection/>
+      <TestimoniSection/>
+      <SendEmailSection/>
     </section>
   )
 }
