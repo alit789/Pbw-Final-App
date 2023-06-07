@@ -9,6 +9,8 @@ import FaqSection from "../../layout/HomePage/FAQ/index"
 import AboutSection from "../../layout/HomePage/About/index"
 import TestimoniSection from "../../layout/HomePage/Testimoni/index"
 import SendEmailSection from "../../layout/HomePage/SendEmail/index"
+import Footer from "../../components/Footer/Footer"
+
 
 const index = () => {
   return (
@@ -16,11 +18,12 @@ const index = () => {
       <NavigationBar/>
       <HeroSection/>
       <FiturSection/>
-      <CarSection/>
       <AboutSection/>
+      <CarSection/>
       <FaqSection/>
       <TestimoniSection/>
       <SendEmailSection/>
+      <Footer/>
     </section>
   )
 }

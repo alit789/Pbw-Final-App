@@ -16,7 +16,7 @@ const index = () => {
           <Navbar.Brand href="#home"><img width={"100%"} src={LogoDesktop} alt="" /></Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
-            <Nav className="rightNavLink">
+            <Nav className="ms-auto rightNavLink">
               <Nav.Link className="Masuk" href="#link">Masuk</Nav.Link>
               <Nav.Link className="Daftar" href="#link">Daftar</Nav.Link>
             </Nav>

@@ -20,13 +20,6 @@
     box-shadow: none !important;
 }
 
-.rightNavLink{
-
-    width: 100%;
-    display: flex;
-    justify-content: right;
-}
-
 .rightNavLink a{
     margin-left: 10px;
 }
@@ -34,6 +27,11 @@
 .rightNavLink a:hover{
     color: var(--blue) !important;
 }
+
+.leftNavLink a:hover{
+    color: var(--blue) !important;
+}
+
 .rightNavLink .Masuk{
     margin-left: 20px;
 }

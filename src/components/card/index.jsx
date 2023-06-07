@@ -6,7 +6,7 @@ import Card from "react-bootstrap/Card";
 
 const index = (props) => {
   return (
-    <Card className="shadow-sm cardFitur" style={{ width: "18rem" }}>
+    <Card className="shadow-sm cardFitur border" style={{ width: "18rem" }}>
       <Card.Body>
         <Card.Title>{props.title}</Card.Title>
         <Card.Text>{props.desc}</Card.Text>

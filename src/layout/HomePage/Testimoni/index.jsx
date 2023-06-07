@@ -36,6 +36,13 @@ const index = () => {
                     desc="Motion Menjadi teman sekaligus pilihan saya ketika ingin liburan"
                   />
                 </Carousel.Item>
+                <Carousel.Item className="d-flex gap-5 justify-content-center">
+                  <CardCorosel
+                  img={"https://pantaugambut.id/images/original/articles/idn-times-BhfEb.png"}
+                    title="Kadek Dwi Adnyana"
+                    desc="Motion memberikan kemudahan untuk saya sebagai traveller untuk meminjam kendaraan"
+                  />
+                </Carousel.Item>
               </Carousel>
             </div>
           </div>
