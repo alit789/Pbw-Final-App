@@ -6,7 +6,8 @@
     --blueHover : #1B2143;
 }
 .container{
-    padding: 50px 0px;
+    
+    padding: 45px 0px;
 }
 p{
     color: var(--blackDesc);
