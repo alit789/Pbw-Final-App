@@ -5,16 +5,20 @@ import "./style.css";
 import CarDetail from "../../../assets/image/Home/Processing-rafiki.svg";
 import CarCard from "../../../components/cardCar/index";
 
+import Bounce from "react-reveal/Bounce";
+
 const index = () => {
   return (
     <Container>
       <Row>
         <Col xl={5}>
-          <div className="carDetailContent ">
-            <div className="imgCar">
-              <img src={CarDetail} width={"100%"} alt="" />
+          <Bounce bottom duration={2000}>
+            <div className="carDetailContent ">
+              <div className="imgCar">
+                <img src={CarDetail} width={"100%"} alt="" />
+              </div>
             </div>
-          </div>
+          </Bounce>
         </Col>
         <Col
           xl={7}
@@ -22,29 +26,39 @@ const index = () => {
           className="  d-flex justify-content-center align-items-center"
         >
           <div className="descCarDetail">
-            <h1>
-              Cara Memesan Mobil Impian Anda Menggunakan <span>Motion</span>
-            </h1>
+            <Bounce bottom duration={2000}>
+              <h1>
+                Cara Memesan Mobil Impian Anda Menggunakan <span>Motion</span>
+              </h1>
+            </Bounce>
             <div className="cardCar">
               <div className="card1">
-                <CarCard
-                  title="1. Daftar"
-                  desc="Pertama Kali yang Harus Kalian Lakukan Sebelum Melakukan Pemesanan Adalah Mendaftar ke Website ini"
-                />
-                <CarCard
-                  title="2. Masuk"
-                  desc="Setelah Melakukan Pendaftaran yang Harus Kalian Lakukan Selanjutnya Adalah Masuk ke Dalam Website ini"
-                />
+                <Bounce bottom duration={2000} delay={200}>
+                  <CarCard
+                    title="1. Daftar"
+                    desc="Pertama Kali yang Harus Kalian Lakukan Sebelum Melakukan Pemesanan Adalah Mendaftar ke Website ini"
+                  />
+                </Bounce>
+                <Bounce bottom duration={2000} delay={300}>
+                  <CarCard
+                    title="2. Masuk"
+                    desc="Setelah Melakukan Pendaftaran yang Harus Kalian Lakukan Selanjutnya Adalah Masuk ke Dalam Website ini"
+                  />
+                </Bounce>
               </div>
               <div className="card2">
-                <CarCard
-                  title="3. Pesan"
-                  desc="Kemudian Kalian Bisa Pesan Mobil Impian Anda di Website Ini Dengan Mudah"
-                />
-                <CarCard
-                  title="4. Bayar"
-                  desc="Setelah Melakukan Proses Pemesanan , Kalian Tinggal Bayar dengan Metode Pembayaran Yang Tersedia"
-                />
+                <Bounce bottom duration={2000} delay={400}>
+                  <CarCard
+                    title="3. Pesan"
+                    desc="Kemudian Kalian Bisa Pesan Mobil Impian Anda di Website Ini Dengan Mudah"
+                  />
+                </Bounce>
+                <Bounce bottom duration={2000} delay={500}>
+                  <CarCard
+                    title="4. Bayar"
+                    desc="Setelah Melakukan Proses Pemesanan , Kalian Tinggal Bayar dengan Metode Pembayaran Yang Tersedia"
+                  />
+                </Bounce>
               </div>
             </div>
           </div>
