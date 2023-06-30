@@ -46,10 +46,20 @@
 .rightNavLink .Daftar:hover{
     color: white;
 }
+#phone{
+    display: none;
+}
 
 @media screen and (max-width:992px) {
     #basic-navbar-nav{
         text-align: center;
+    }
+    #desk{
+        display: none;
+    }
+    #phone{
+        width: 25px;
+        display: block;
     }
     .rightNavLink .Daftar{
         width: unset;
