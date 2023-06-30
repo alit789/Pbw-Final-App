@@ -14,29 +14,25 @@ const index = () => {
         <Row>
           <Col md={12} xl={6}>
             <div className="titleHero d-flex h-100 align-items-center">
-              <Bounce duration={2000} bottom cascade>
-                <div>
-                  <h1>
-                    Search and Find Your <br /> Best Rental with{" "}
-                    <span>Easy</span> Way
-                  </h1>
-                  <p>
-                    Dapatkan mobil dimanapun dan kapanpun dengan <br /> Mudah
-                    dari perangkat iOS atau Android Anda.
-                  </p>
-                  <div className="playAndApp">
-                    <img src={appStore} alt="" />
-                    <img src={playStore} alt="" />
-                  </div>
+              <div>
+                <h1>
+                  Search and Find Your <br /> Best Rental with <span>Easy</span>{" "}
+                  Way
+                </h1>
+                <p>
+                  Dapatkan mobil dimanapun dan kapanpun dengan <br /> Mudah dari
+                  perangkat iOS atau Android Anda.
+                </p>
+                <div className="playAndApp">
+                  <img src={appStore} alt="" />
+                  <img src={playStore} alt="" />
                 </div>
-              </Bounce>
+              </div>
             </div>
           </Col>
           <Col md={12} xl={6}>
             <div className="imgHero">
-              <Bounce bottom duration={2000} delay={100}>
-                <img src={carHero} alt="HeroPicture" width={"100%"} />
-              </Bounce>
+              <img src={carHero} alt="HeroPicture" width={"100%"} />
             </div>
           </Col>
         </Row>

@@ -1,0 +1,13 @@
+.containerLogin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.wrapContentLogin{
+    width: 500px;
+    padding: 50px 20px;
+    height: fit-content;
+    border-radius: 10px;
+}
