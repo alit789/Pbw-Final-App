@@ -1,0 +1,26 @@
+#containerSewa{
+    padding-top: 100px;
+}
+
+
+.titleSewa i, .titleSewa span{
+    font-size: 28px;
+    font-weight: 500;
+    color: var(--blue);
+}
+
+.nameAndEmail{
+    display: flex;
+    gap: 10px;
+    margin: 14px 0;
+}
+.timeNdate{
+    gap: 10px;
+    display: flex;
+}
+
+.kanan, .kiri{
+    width: 50%;
+    display: flex;
+    gap: 10px;
+}

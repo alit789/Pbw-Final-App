@@ -19,8 +19,8 @@ const index = () => {
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ms-auto">
-              <Nav.Link href=""> <i class="uil uil-clipboard"></i>List Kendaraan</Nav.Link>
-              <Nav.Link href=""> <i class="uil uil-bill"></i>Sewa Kendaraan</Nav.Link>
+              <Nav.Link href="/dashboard"> <i class="uil uil-clipboard"></i>List Kendaraan</Nav.Link>
+              <Nav.Link href="/sewa"> <i class="uil uil-bill"></i>Sewa Kendaraan</Nav.Link>
               <Nav.Link href=""><i class="uil uil-history"></i>Riwayat Peminjaman</Nav.Link>
               <Nav.Link className="logout" href=""><i className="uil uil-sign-out-alt"></i>Keluar</Nav.Link>
             </Nav>

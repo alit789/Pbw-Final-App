@@ -5,7 +5,7 @@ import "./style.css";
 const CardList = (props) => {
   return (
     <a href="">
-      <Card id="cardHover" className="border shadow-sm mt-4" style={{ width: "18rem" }}>
+      <Card id="cardHover" className="border shadow-sm mt-5" style={{ width: "18rem" }}>
         <Card.Img id="gambarList" variant="top" src={props.img} />
         <Card.Body>
           <Card.Title>{props.title}</Card.Title>
