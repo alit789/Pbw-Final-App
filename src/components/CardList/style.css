@@ -1,0 +1,28 @@
+a{
+    text-decoration: none !important;
+}
+
+#gambarList{
+    height: 180px;
+}
+
+#cardDay{
+    color: rgb(51, 185, 51) !important;
+    font-size: 18px !important;
+}
+
+.price{
+    width: 100%;
+    align-items: center !important;
+    display: flex;
+    justify-content: space-between !important;
+}
+
+.descList{
+    text-align: justify;
+}
+
+#cardHover:hover{
+    transition: 0.5s ease-in-out;
+    transform:translateY(-10px)
+}

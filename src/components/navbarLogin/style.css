@@ -1,0 +1,50 @@
+#containerNavbar{
+    padding: unset !important;
+    padding: 0 10px !important;
+}
+
+.navbar-brand{
+    width:120px;
+}
+
+.navbar-toggler-icon {
+    width: 1.3rem !important;
+    height: 1.3rem !important;
+}
+
+.navbar-toggler{
+    border: 1px solid rgba(0, 0, 0, 0) !important;
+}
+
+.navbar-toggler:focus{
+    box-shadow: none !important;
+}
+
+.leftNavLink a:hover{
+    color: var(--blue) !important;
+}
+
+i{
+    margin-right: 4px;
+}
+
+.logout{
+    color: red !important;
+}
+
+#phone{
+    display: none;
+}
+
+@media screen and (max-width:992px) {
+    #basic-navbar-nav{
+        text-align: center;
+    }
+    #desk{
+        display: none;
+    }
+    #phone{
+        width: 25px;
+        display: block;
+    }
+}

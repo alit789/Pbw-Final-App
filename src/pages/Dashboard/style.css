@@ -1,0 +1,9 @@
+#containerList{
+    padding-top: 100px;
+}
+
+#containerList i, #containerList span{
+    font-size: 28px;
+    font-weight: 500;
+    color: var(--blue);
+}
