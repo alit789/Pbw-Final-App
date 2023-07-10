@@ -54,16 +54,16 @@ const sewa = () => {
                 </div>
                 <select className="w-100 my-3 rounded p-2" name="" id="">
                     <option value="">Pilih Jenis Kendaraan</option>
-                    <option value="">Avanza</option>
-                    <option value="">Xenia</option>
-                    <option value="">Inova</option>
-                    <option value="">Yaris</option>
-                    <option value="">Pajero Sport</option>
-                    <option value="">CRV</option>
-                    <option value="">Agya</option>
-                    <option value="">Ayla</option>
-                    <option value="">BMW</option>
-                    <option value="">Mercedes Benz</option>
+                    <option value="Avanza">Avanza</option>
+                    <option value="Xenia">Xenia</option>
+                    <option value="Inova">Inova</option>
+                    <option value="Yaris">Yaris</option>
+                    <option value="Pajero Sport">Pajero Sport</option>
+                    <option value="Crv">CRV</option>
+                    <option value="Agya">Agya</option>
+                    <option value="Ayla">Ayla</option>
+                    <option value="Bmw">BMW</option>
+                    <option value="Mercy">Mercedes Benz</option>
                 </select>
                 <button type="submit" className="btn btn-primary">Pesan Sekarang</button>
               </form>
